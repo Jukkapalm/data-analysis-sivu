@@ -3,7 +3,7 @@
 
 // Värikartta
 // Raakadata / keräys  — #00d4ff (sähkön syaani)
-// AI / ML             — #ff00ff (magenta)
+// Automation             — #ff00ff (magenta)
 // Security            — #39ff14 (neon vihreä)
 // System / infra      — #9d4edd (purple)
 const nodes = [
@@ -112,7 +112,7 @@ function initMatrix(div, n) {
     }
 
     function draw() {
-        ctx.fillStyle = 'rgba(6,10,13,0.18)';
+        ctx.fillStyle = 'rgba(6,10,13,0.08)';
         ctx.fillRect(0, 0, canvas.width, canvas.height);
         ctx.font = '12px "Share Tech Mono"';
 
@@ -121,7 +121,7 @@ function initMatrix(div, n) {
             const x  = i * 14;
             const y  = drops[i] * 14;
 
-            ctx.globalAlpha = 0.9;
+            ctx.globalAlpha = 1;
             ctx.fillStyle   = n.clr;
             ctx.fillText(ch, x, y);
 
@@ -136,7 +136,7 @@ function initMatrix(div, n) {
 
     div.addEventListener('mouseenter', () => {
         resize();
-        raf = setInterval(draw, 100);
+        raf = setInterval(draw, 50);
     });
     div.addEventListener('mouseleave', () => {
         clearInterval(raf);
