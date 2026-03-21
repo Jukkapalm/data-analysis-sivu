@@ -167,6 +167,17 @@ body::after {
     transform: translateY(-7px);
     border-color: var(--clr);
     box-shadow: 0 0 32px -4px var(--clr-dim), 0 0 0 1px var(--clr-dim);
+    animation: node-flicker 1.5s ease forwards;
+}
+/* Node flicker-in hoverin yhteydessä */
+@keyframes node-flicker {
+    0%   { opacity: 0; }
+    15%  { opacity: 0.7; }
+    20%  { opacity: 0.2; }
+    30%  { opacity: 0.9; }
+    35%  { opacity: 0.3; }
+    50%  { opacity: 1; }
+    100% { opacity: 1; }
 }
 
 /* Matrix canvas */
