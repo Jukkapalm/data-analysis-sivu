@@ -10,12 +10,12 @@ const nodes = [
     {
         id:     "DA-001",
         title:  "GHOST.SYS",
-        desc:   "Short description of what this project does and what was analysed.",
+        desc:   "Reaaliaikainen palvelinmonitorointi dashboard — seuraa CPU:ta, muistia, levyä ja verkkoliikennettä sekä analysoi automaattisesti pullonkauloja ja varoittaa ongelmista.",
         tags:   ["system"],
         clr:    "#9D4EDD",
         chars:  "0123456789ABCDEF01010110",
-        link:   "#",
-        github: "#",
+        link:   "https://ghost-sys-1.onrender.com",
+        github: "https://github.com/Jukkapalm/ghost-sys",
         locked: false
     },
     {
