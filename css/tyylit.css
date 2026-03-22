@@ -304,7 +304,7 @@ body::after {
 
 .node-btn {
     font-family: var(--font-mono);
-    font-size: clamp(0.85rem, 1.3vw, 0.95rem);
+    font-size: clamp(0.8rem, 1.2vw, 0.9rem);
     letter-spacing: 2px;
     text-transform: uppercase;
     padding: 7px 14px;
