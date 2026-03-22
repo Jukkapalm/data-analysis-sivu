@@ -14,7 +14,7 @@ const nodes = [
         tags:   ["system"],
         tech:   ["Python", "FastAPI", "JavaScript"],
         clr:    "#9D4EDD",
-        chars:  "0123456789ABCDEF01010110",
+        chars:  "01",
         link:   "https://ghost-sys-1.onrender.com",
         github: "https://github.com/Jukkapalm/ghost-sys",
         locked: false
@@ -25,7 +25,7 @@ const nodes = [
         desc:   "Short description of what this project does and what was analysed.",
         tags:   [""],
         clr:    "#00D4FF",
-        chars:  "0123456789ABCDEF01010110",
+        chars:  "01",
         link:   "#",
         github: "#",
         locked: true
@@ -36,7 +36,7 @@ const nodes = [
         desc:   "Short description of what this project does and what was analysed.",
         tags:   [""],
         clr:    "#39DD14",
-        chars:  "0123456789ABCDEF01010110",
+        chars:  "01",
         link:   "#",
         github: "#",
         locked: true
@@ -138,6 +138,7 @@ function initMatrix(div, n) {
 
     div.addEventListener('mouseenter', () => {
         resize();
+        for (let i = 0; i < 15; i++) { draw(); }
         raf = setInterval(draw, 50);
     });
     div.addEventListener('mouseleave', () => {
