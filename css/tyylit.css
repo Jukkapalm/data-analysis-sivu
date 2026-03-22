@@ -168,7 +168,7 @@ body::after {
     border: 1px solid var(--border);
     background: var(--bg-card);
     overflow: hidden;
-    min-height: 240px;
+    min-height: 320px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -235,7 +235,7 @@ body::after {
     padding: 1.1rem 1.2rem 1.2rem;
 }
 .node-id {
-    font-size: clamp(0.75rem, 1.2vw, 0.85rem);
+    font-size: clamp(0.85rem, 1.3vw, 0.95rem);
     letter-spacing: 3px;
     color: var(--clr);
     opacity: 0.5;
@@ -246,7 +246,7 @@ body::after {
 
 .node-title {
     font-family: var(--font-display);
-    font-size: clamp(0.85rem, 1.5vw, 1.05rem);
+    font-size: clamp(1rem, 1.7vw, 1.2rem);
     font-weight: 700;
     letter-spacing: 1.5px;
     color: var(--clr);
@@ -262,7 +262,7 @@ body::after {
 .node:hover .node-title.is-locked { color: #ff2244; }
 
 .node-desc {
-    font-size: clamp(0.8rem, 1.3vw, 0.9rem);
+    font-size: clamp(0.9rem, 1.4vw, 1rem);
     line-height: 1.6;
     margin-bottom: 0.8rem;
     opacity: 0.5;
@@ -284,7 +284,7 @@ body::after {
 .node-desc.is-locked { color: #ff2244; }
 
 .node-tech {
-    font-size: clamp(0.7rem, 1.1vw, 0.8rem);
+    font-size: clamp(0.8rem, 1.2vw, 0.9rem);
     letter-spacing: 2px;
     color: var(--clr);
     opacity: 0.4;
@@ -304,7 +304,7 @@ body::after {
 
 .node-btn {
     font-family: var(--font-mono);
-    font-size: clamp(0.75rem, 1.2vw, 0.85rem);
+    font-size: clamp(0.85rem, 1.3vw, 0.95rem);
     letter-spacing: 2px;
     text-transform: uppercase;
     padding: 7px 14px;
