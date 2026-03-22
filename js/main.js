@@ -12,7 +12,7 @@ const nodes = [
         title:  "GHOST.SYS",
         desc:   "Reaaliaikainen palvelinmonitorointi dashboard — seuraa CPU:ta, muistia, levyä ja verkkoliikennettä sekä analysoi automaattisesti pullonkauloja ja varoittaa ongelmista.",
         tags:   ["system"],
-        tech:   ["Python", "JS", "HTML", "CSS"],
+        tech:   ["Python", "FastAPI", "JavaScript"],
         clr:    "#9D4EDD",
         chars:  "0123456789ABCDEF01010110",
         link:   "https://ghost-sys-1.onrender.com",
