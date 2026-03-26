@@ -1,6 +1,6 @@
-# Data Analysis - sivu
+# Data-Driven Apps - sivu
 
-Cyberpunk henkinen sivu data analyysi - projekteille
+Cyberpunk henkinen sivu dataohjautuville - projekteille
 
 ---
 
